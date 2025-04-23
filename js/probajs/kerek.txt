@@ -1,0 +1,8 @@
+  1) "scripts": {
+    "serve:json" : "json-server --watch ./json/db.json"
+  }
+
+
+  2) npm run serve:json
+
+3) npm install json-server --save-dev
