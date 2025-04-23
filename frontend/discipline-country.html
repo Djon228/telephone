@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Discipline</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/discipline-country.css" />
+  <script defer src="../js/discipline-country.js"></script>
+</head>
+<body class="bg">
+  <div class="page-wrapper">
+    <div class="country-page">
+
+      <div class="top-bar">
+        <button class="back-btn" onclick="history.back()">
+          <img src="../media/images/ico-prev.svg" alt="Back" class="back-icon-svg" />
+        </button>
+        <div class="logo-center">
+          <img src="../media/images/logo-white.png" alt="Olympics" class="logo-pair" />
+        </div>
+      </div>
+
+            <h1 id="discipline-name"></h1>
+            <img id="image" class="flag-circle" alt="image" />
+        <table class="medals-table">
+            <thead>
+        <tr>
+            <th>Country</th>
+            <th>Total Medals</th>
+        </tr>
+            </thead>
+            <tbody id="medals-body"></tbody>
+        </table>
+    </div>
+  </div>
+  
+</body>
+</html>

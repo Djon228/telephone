@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Country</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <script defer src="../js/country.js"></script> 
+</head>
+<body class="bg">
+  <div class="page-wrapper">
+  <div class="country-page">
+
+    <div class="top-bar">
+      <button class="back-btn" onclick="history.back()">
+        <img src="../media/images/ico-prev.svg" alt="Back" class="back-icon-svg" />
+      </button>
+    
+      <div class="logo-center">
+        <img src="../media/images/logo-white.png" alt="Olympics" class="logo-pair" />
+      </div>
+    </div>
+    
+  
+
+    <h1 id="country-name">USA</h1>
+    <img id="flag" class="flag-circle" alt="Flag" />
+
+    <table class="medals-table">
+      <thead>
+        <tr>
+          <th>GOLD</th>
+          <th>SILVER</th>
+          <th>BRONZE</th>
+          <th>TOTAL</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="gold">0</td>
+          <td id="silver">0</td>
+          <td id="bronze">0</td>
+          <td id="total">0</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="medals-links">
+      <button class="medal-btn gold" onclick="goToMedals('gold')">
+        <img src="../media/images/medals/gold.png" alt="Gold" class="medal-icon" />
+        Medals
+      </button>
+      <button class="medal-btn silver" onclick="goToMedals('silver')">
+        <img src="../media/images/medals/silver.png" alt="Silver" class="medal-icon" />
+        Medals
+      </button>
+      <button class="medal-btn bronze" onclick="goToMedals('bronze')">
+        <img src="../media/images/medals/bronze.png" alt="Bronze" class="medal-icon" />
+        Medals
+      </button>
+    </div>
+  </div>
+  </div>
+</body>
+</html>

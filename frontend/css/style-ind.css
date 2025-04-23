@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff; /* можно оставить однородный фон body, чтобы блок выделялся */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Блок с контентом, внутри которого фон задаётся через bg.png */
+  .welcome-card {
+    max-width: 375px;
+    width: 100%;
+    padding: 50px 20px;
+    border-radius: 50px;
+    background: url("../../media/images/bg.png") no-repeat center center;
+    background-size: cover;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+  
+  
+  .image-box {
+    margin-bottom: 30px;
+  }
+  
+  .frame-img {
+    width: 100%;
+    border-radius: 16px;
+    border: 2px solid white;
+  }
+  
+  .image-box h1 {
+    font-size: 1.8rem;
+    margin-top: 15px;
+    line-height: 1.2;
+  }
+  
+  .image-box h1 span {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .button-group button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 12px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid white;
+    color: white;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .button-group button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  
+  .header-logo-single {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-center {
+    width: 320px; /* Увеличен размер */
+    height: auto;
+  }
+  
+  
+  
+  .page {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    color: white;
+  }
+  
+  .country-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .country-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 10px 14px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .country-card:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  
+  .country-card img {
+    width: 32px;
+    height: 20px;
+    object-fit: cover;
+  }
+  
+  .country-name {
+    font-size: 1rem;
+  }
+  
